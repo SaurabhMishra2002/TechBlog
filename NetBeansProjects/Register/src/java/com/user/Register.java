@@ -142,7 +142,7 @@ public class Register extends HttpServlet {
             // Database credentials
             String url = "jdbc:mysql://localhost:3306/project?useSSL=false&serverTimezone=UTC";
             String dbUser = "root"; // <-- Replace with your DB user
-            String dbPass = "Papa@123"; // <-- Replace with your DB password
+            String dbPass = "********"; // <-- Replace with your DB password
             Part part = request.getPart("image");
             
             String filename = part.getSubmittedFileName();
